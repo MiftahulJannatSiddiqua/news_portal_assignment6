@@ -80,12 +80,13 @@ header{
 #news-container{
     display: flex;
 }
-#green{
-    height: 100px;
-    width: 50%;
-    background-color: green;
+.displayFlex{
+ display: flex;
 }
-#news-details{
-    width: 50%;
-    background-color: red;
+.author-img{
+  border-radius: 100%;
+    width: 40px;
+}
+.flex-display{
+    display: flex;
 }
