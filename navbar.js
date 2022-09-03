@@ -40,7 +40,8 @@ const loadNavBar=() =>{
         <div>
             <div><h3>${storeTheData.title}</h3><p>${storeTheData.details}</p></div>
             <div class="flex-display"><div><img class="author-img" src="${storeTheData.author.img}"</div>
-           <div><h4>${storeTheData.author.name}</h4></div><div><span>${storeTheData.author.published_date}</span></div></div>
+           <div><h4>${storeTheData.author.name}</h4><span>${storeTheData.author.published_date}</span></div>
+           <div>${storeTheData.total_view}</div></div>
         </div>
         `;
         navContainer.appendChild(newsDiv);
