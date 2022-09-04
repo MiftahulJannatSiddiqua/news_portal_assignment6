@@ -45,11 +45,6 @@ const loadNavBar = async () => {
         navContainer.textContent='';
         const spinnerview= document.getElementById('spinner');
         spinnerview.classList.add('d-none');
-       
-        
-        // partOfNewsElement.textContent = "";
-        // const dataLoad = document.getElementById('dataLoads');
-        // dataLoad.classList.add('d-none');
     }
     else{
         const allNewsFound =document.getElementById('span-number');
