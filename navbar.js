@@ -45,8 +45,8 @@ const loadNavBar = async () => {
         navContainer.textContent='';
         const spinnerview= document.getElementById('spinner');
         spinnerview.classList.add('d-none');
-        // document.getElementById('newCount').classList.add('d-none');
-        // partOfErrorNews.classList.remove('d-none')
+       
+        
         // partOfNewsElement.textContent = "";
         // const dataLoad = document.getElementById('dataLoads');
         // dataLoad.classList.add('d-none');
