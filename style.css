@@ -55,13 +55,7 @@ header{
     width: 100%;
     border-radius: 100%;
 }
-.navbar{
-    display: flex;
-}
-.navbar li{
-    color:darkslategray;
-    
-}
+
 #text-bar{
     border: 0;
     background-color: white;
@@ -99,5 +93,7 @@ header{
 }
 
 @media only screen and (max-width : 450px){
-    
+    #nav-bar ul li{
+        flex-direction: column;
+    } 
 }
